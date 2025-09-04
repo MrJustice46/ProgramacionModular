@@ -1,6 +1,6 @@
 Funcion Calorias <- LeerCalorias(Dia)
     Definir Calorias Como Real
-    Escribir "¿Cuántas calorías consumió el día ", Dia, "?"
+    Escribir "Â¿CuÃ¡ntas calorÃ­as consumiÃ³ el dÃ­a ", Dia, "?"
     Leer Calorias
     Escribir "--------------------------------------"
 FinFuncion
@@ -12,11 +12,11 @@ FinFuncion
 
 Funcion Mensaje <- HacerMensaje(TotalSemana)
     Definir Mensaje Como Cadena
-    Mensaje <- "El total de calorías que consumió en la semana es de: " + ConvertirATexto(TotalSemana)
+    Mensaje <- "El total de calorÃ­as que consumiÃ³ en la semana es de: " + ConvertirATexto(TotalSemana)
 FinFuncion
 
-Funcion ImprimirMensaje(Texto)
-    Escribir Texto
+Funcion ImprimirMensaje(Textoo)
+    Escribir Textoo
 FinFuncion
 
 Algoritmo CaloriasSemana
@@ -31,7 +31,7 @@ Algoritmo CaloriasSemana
     CaloriasDia <- LeerCalorias("Martes")
     TotalSemana <- Acumular(TotalSemana, CaloriasDia)
     
-    CaloriasDia <- LeerCalorias("Miércoles")
+    CaloriasDia <- LeerCalorias("MiÃ©rcoles")
     TotalSemana <- Acumular(TotalSemana, CaloriasDia)
     
     CaloriasDia <- LeerCalorias("Jueves")
@@ -40,7 +40,7 @@ Algoritmo CaloriasSemana
     CaloriasDia <- LeerCalorias("Viernes")
     TotalSemana <- Acumular(TotalSemana, CaloriasDia)
     
-    CaloriasDia <- LeerCalorias("Sábado")
+    CaloriasDia <- LeerCalorias("SÃ¡bado")
     TotalSemana <- Acumular(TotalSemana, CaloriasDia)
     
     CaloriasDia <- LeerCalorias("Domingo")
@@ -49,4 +49,5 @@ Algoritmo CaloriasSemana
     Mensaje <- HacerMensaje(TotalSemana)
     ImprimirMensaje(Mensaje)
 FinAlgoritmo
+
 
