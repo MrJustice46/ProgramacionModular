@@ -1,4 +1,4 @@
-Funcion Edad <- LeerEdad()
+Funcion Edad <- LeerEdad
 	Definir Edad Como Entero
 	Escribir "Digite su edad: "
     Leer edad
@@ -6,7 +6,7 @@ FinFuncion
 
 Funcion mensaje <- MostrarEdad(edad)
     Definir mensaje Como Cadena
-    mensaje <- "Tienes " + ConvertirATexto(edad) + " años"
+    mensaje <- "Tienes " + ConvertirATexto(edad) + " aÃ±os"
 	Escribir mensaje
 FinFuncion
 
@@ -17,3 +17,4 @@ Algoritmo EdadConFunciones
     resultado <- MostrarEdad(edad)
    
 FinAlgoritmo
+
