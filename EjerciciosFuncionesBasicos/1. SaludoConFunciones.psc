@@ -1,11 +1,11 @@
-Funcion nom <- LeerNombre()
+Funcion nom <- LeerNombre
 	Definir Nom Como Cadena
 	
 	Escribir "Ingrese su nombre"
 	Leer Nom
 FinFuncion
 
-Funcion ape <- LeerApellido()
+Funcion ape <- LeerApellido
 	Definir ape Como Cadena
 	Escribir "Ingrese su apellido"
 	Leer ape
@@ -22,4 +22,5 @@ Algoritmo SaludoConFunciones
 	nombre <- LeerNombre()
 	apellido <- LeerApellido()
 	mensajes <- Bienvenida(nombre, apellido)
+
 FinAlgoritmo
