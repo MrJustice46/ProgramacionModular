@@ -1,4 +1,4 @@
-Funcion Producto <- LeerProducto()
+Funcion Producto <- LeerProducto
 	Definir Producto como cadena
 	Escribir "Hola, cuanto cuesta"
 	Leer Producto
@@ -31,3 +31,4 @@ Algoritmo Precio_producto
 	
 	
 FinAlgoritmo
+
